@@ -16,7 +16,7 @@
     <string name="mcl_launch_downloading_progress">Загрузка %s (%.2f МБ / %.2f МБ)</string>
     <string name="mcl_options">Настройки</string>
     <string name="mcl_option_customcontrol">Раскладка управления</string>
-    <string name="mcl_setting_title_use_surface_view">Использовать альтернативную отрисовку поверхности</string>
+    <string name="mcl_setting_title_use_surface_view">Использовать альтернативный метод отрисовки поверхности</string>
     <string name="mcl_setting_subtitle_use_surface_view">Может повысить производительность в сценариях, ограниченных производительностью ГП.</string>
     <string name="mcl_setting_title_ignore_notch">Игнорировать вырез</string>
     <string name="mcl_setting_subtitle_ignore_notch">Игнорирует вырез под фронтальную камеру и расширяет экран под него.\nДаёт более глубокое погружение в игру.</string>
@@ -257,7 +257,7 @@
     <string name="mod_dl_install_optifine">Установить OptiFine</string>
     <string name="hint_search_modpack">Поиск сборок модов</string>
     <string name="preference_vulkan_driver_system_title">Использовать системный драйвер Vulkan</string>
-    <string name="preference_vulkan_driver_system_description">Принудительно использовать системный драйвер Vulkan вместо Turnip на ГП Adreno. Влияет только на Zink и моды, использующие Vulkan.</string>
+    <string name="preference_vulkan_driver_system_description">Принудительно использовать системный драйвер Vulkan вместо Turnip на ГП Adreno. Влияет только на Zink, а также на моды и версии игры, использующие Vulkan.</string>
     <string name="generic_install">Установить</string>
     <string name="generic_apply">Применить</string>
     <string name="generic_debug">Отладка</string>
