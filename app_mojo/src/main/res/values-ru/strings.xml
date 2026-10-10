@@ -81,9 +81,9 @@
     <string name="control_forceclose">Принудительно закрыть</string>
     <string name="control_viewout">Вывод журнала</string>
     <string name="control_customkey">Отправить код клавиши</string>
-    <string name="import_control_label">Импорт управления</string>
+    <string name="import_control_label">Импорт раскладки</string>
     <string name="import_control_invalid_file">Недопустимый или повреждённый файл</string>
-    <string name="import_control_import_button">импортировать раскладку</string>
+    <string name="import_control_import_button">Импортировать раскладку</string>
     <string name="import_control_verifying_file">Файл проверяется. Подождите и попробуйте ещё раз…</string>
     <string name="import_control_invalid_name">Недопустимое имя или файл с таким именем уже существует</string>
     <string name="import_control_done">Импорт выполнен</string>
@@ -352,7 +352,7 @@
     <string name="select_bta_version">Выберите версию «Better than Adventure!»</string>
     <string name="bta_installer_available_versions">Поддерживаемые версии BTA</string>
     <string name="bta_installer_untested_versions">Непроверенные версии BTA</string>
-    <string name="bta_installer_nightly_versions">Ночные сборки BTA</string>
+    <string name="bta_installer_nightly_versions">Экспериментальные версии BTA</string>
     <string name="newdl_extracting_native_libraries">Извлечение нативных библиотек (%d/%d)</string>
     <string name="compat_sodium_not_supported">Ваше устройство не может запустить Sodium на этой версии, так как LTW на нём не поддерживается.</string>
     <string name="oauth_unknown_error">Неизвестная ошибка аутентификации</string>
