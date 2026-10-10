@@ -177,7 +177,7 @@
     <string name="instance_shared_data_off">Хранить данные игры в папке установки</string>
     <string name="global_delete">Удалить</string>
     <string name="pedit_java_runtime">Среда выполнения Java</string>
-    <string name="pedit_renderer">Визуализатор</string>
+    <string name="pedit_renderer">OpenGL визуализатор</string>
     <string name="notif_channel_name">Общие</string>
     <string name="lazy_service_default_title">Служба MJ в фоне</string>
     <string name="mcl_setting_veroption_installed">Установленные</string>
