@@ -5,7 +5,7 @@
     <string name="app_short_name">MJLauncher</string>
     <string name="login_online_username_hint">Имя пользователя</string>
     <string name="login_online_login_label">Войти</string>
-    <string name="hint_control_mapping">Нажмите на значок шестерёнки ⚙, чтобы открыть контекстное меню.\nКоснитесь кнопки, чтобы настроить её: изменить, поменять размер, удалить или переназначить клавиши.</string>
+    <string name="hint_control_mapping">Нажмите на значок шестерёнки ⚙, чтобы открыть меню действий.\nКоснитесь кнопки, чтобы настроить её: изменить, поменять размер, удалить или переназначить клавиши.</string>
     <string name="warning_remove_account">Эта учётная запись будет удалена!</string>
     <string name="error_fatal">MJLauncher неожиданно завершился с ошибкой</string>
     <string name="error_no_version">Нет версий!</string>
@@ -16,7 +16,7 @@
     <string name="mcl_launch_downloading_progress">Загрузка %s (%.2f МБ / %.2f МБ)</string>
     <string name="mcl_options">Настройки</string>
     <string name="mcl_option_customcontrol">Раскладка управления</string>
-    <string name="mcl_setting_title_use_surface_view">Использовать альтернативную отрисовку Surface</string>
+    <string name="mcl_setting_title_use_surface_view">Использовать альтернативную отрисовку поверхности</string>
     <string name="mcl_setting_subtitle_use_surface_view">Может повысить производительность в сценариях, ограниченных производительностью ГП.</string>
     <string name="mcl_setting_title_ignore_notch">Игнорировать вырез</string>
     <string name="mcl_setting_subtitle_ignore_notch">Игнорирует вырез под фронтальную камеру и расширяет экран под него.\nДаёт более глубокое погружение в игру.</string>
