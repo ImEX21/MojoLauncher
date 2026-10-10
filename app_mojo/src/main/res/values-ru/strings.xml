@@ -354,7 +354,8 @@
     <string name="bta_installer_untested_versions">Непроверенные версии BTA</string>
     <string name="bta_installer_nightly_versions">Экспериментальные версии BTA</string>
     <string name="newdl_extracting_native_libraries">Извлечение системных библиотек (%d/%d)</string>
-    <string name="compat_sodium_not_supported">Ваше устройство не может запустить Sodium на этой версии, так как LTW на нём не поддерживается.</string>
+    <string name="compat_version_not_supported">Ваше устройство не может запустить эту версию, поскольку LTW не поддерживается.</string>
+    <string name="compat_sodium_not_supported">Ваше устройство не может запустить Sodium на этой версии, так как LTW им не поддерживается.</string>
     <string name="oauth_unknown_error">Неизвестная ошибка входа</string>
     <string name="oauth_web_complete">Вход…</string>
     <string name="auth_select_microsoft">Учётная запись Microsoft</string>
