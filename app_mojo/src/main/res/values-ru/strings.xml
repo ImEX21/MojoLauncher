@@ -7,18 +7,13 @@
     <string name="login_online_login_label">Войти</string>
     <string name="hint_control_mapping">Нажмите на иконку шестерёнки ⚙, чтобы открыть меню действий.\nВыберите кнопку, чтобы удалить её или скопировать;\nизменить её свойства, размер или привязанные клавиши.</string>
     <string name="warning_remove_account">Эта учётная запись будет удалена!</string>
-    <string name="alerttitle_installmod">Выберите установщик мода</string>
     <string name="error_fatal">MJLauncher был остановлен в результате сбоя</string>
     <string name="error_no_version">Нет версий!</string>
     <string name="error_show_more">Развернуть</string>
     <string name="error_show_less">Свернуть</string>
     <string name="toast_permission_denied">Требуется разрешение на чтение/запись в хранилище!</string>
-    <string name="toast_optifine_success">Установка прошла успешно</string>
     <string name="mcl_tab_wiki">Вики</string>
-    <string name="mcl_launch_cleancache">Очистка файлов кэша</string>
-    <string name="mcl_launch_downloading">Загрузка %s</string>
     <string name="mcl_launch_downloading_progress">Загрузка %s (%.2f Мбайт / %.2f Мбайт)</string>
-    <string name="mcl_launch_download_assets">Подготовка к загрузке ресурсов</string>
     <string name="mcl_options">Опции</string>
     <string name="mcl_option_customcontrol">Раскладка управления</string>
     <string name="mcl_setting_title_use_surface_view">Альтернативный визуализатор</string>
@@ -67,7 +62,6 @@
     <string name="mcn_exit_title">Произошёл собой приложения/игры с кодом %d. Проверьте latestlog.txt, чтобы получить больше информации.</string>
     <string name="mcn_abort_title">Произошла аварийная остановка приложения. Проверьте latestlog.txt для получения дополнительной информации</string>
     <string name="mcn_exit_confirm">Вы уверены, что хотите принудительно завершить игру?</string>
-    <string name="mcn_check_fail_vulkan_support">Визуализатор Zink (Vulkan) не поддерживается на вашем устройстве!</string>
     <string name="control_chat">Чат</string>
     <string name="control_debug">Отладка</string>
     <string name="control_primary">ЛКМ</string>
@@ -86,7 +80,6 @@
     <string name="control_mouseon">Мышь: Вкл</string>
     <string name="control_forceclose">Завершить процесс</string>
     <string name="control_viewout">Журнал</string>
-    <string name="control_adebug">Отладка ввода</string>
     <string name="control_customkey">Нажать клавишу</string>
     <string name="import_control_label">Импортирование управления</string>
     <string name="import_control_invalid_file">Недопустимый или повреждённый файл</string>
@@ -115,11 +108,6 @@
     <string name="main_install_jar_file">Запустить .jar</string>
     <string name="main_play">Играть</string>
     <string name="autoram_info_msg">Выделено %d Мбайт ОЗУ</string>
-    <string name="mcl_setting_check_libraries">Проверка библиотек после загрузки</string>
-    <string name="mcl_setting_check_libraries_subtitle">Принуждает лаунчер проверять хеш библиотеки, если он доступен. Предотвращает использование повреждённых библиотек.</string>
-    <string name="dl_library_sha_fail">Библиотека %s повреждена и будет загружена повторно</string>
-    <string name="dl_library_sha_unknown">Библиотеку %s не удалось проверить; допустим, она в порядке</string>
-    <string name="dl_library_sha_pass">Библиотека %s проверена и готова к использованию</string>
     <string name="mcl_disable_gestures">Отключить жесты</string>
     <string name="mcl_disable_gestures_subtitle">Переключение жестов размещения/разрушения блока при касании/удерживании экрана.</string>
     <string name="mcl_disable_swap_hand">Отключить смену руки по двойному касанию</string>
@@ -145,7 +133,6 @@
     <string name="multirt_config_setdefault_already">По умолчанию</string>
     <string name="multirt_config_removeerror_last">Должна быть установлена хотя бы одна среда выполнения Java.</string>
     <string name="multirt_nocompatiblert">Не удаётся найти совместимую среду выполнения Java. Эта версия требует Java %d или новее.</string>
-    <string name="multirt_nojava8rt">Не удалось найти Java 8. Чтобы использовать эту опцию, необходимо установить Java 8.</string>
     <string name="multirt_delete_runtime">Удалить</string>
     <string name="pvc_gameDirectory">Папка игры</string>
     <string name="pvc_jvmArgs">Аргументы JVM</string>
@@ -218,7 +205,6 @@
     <string name="preference_enable_gyro_description">Позволяет управлять положением камеры в игре путём вращения устройства.</string>
     <string name="preference_gyro_sensitivity_title">Чувствительность гироскопа</string>
     <string name="preference_gyro_sensitivity_description">Изменение чувствительности датчика вращения.</string>
-    <string name="toast_turn_on_gyro">Сначала включите «Управление наклоном».</string>
     <string name="preference_gyro_sample_rate_title">Интервал опроса гироскопа</string>
     <string name="preference_gyro_sample_rate_description">Увеличьте, если управление наклоном снижает производительность.</string>
     <string name="microsoft_login_retry_later">Слишком много запросов, попробуйте ещё раз позже.</string>
@@ -247,8 +233,6 @@
     <string name="preference_force_big_core_title">Запускать визуализатор на мощном ядре</string>
     <string name="preference_force_big_core_desc">Принудительно запускать поток графического движка на ядре ЦП с наибольшей тактовой частотой.</string>
     <string name="version_select_hint">Выберите версию</string>
-    <string name="forge_dl_progress">Загрузка установщика %s</string>
-    <string name="forge_dl_searching">Поиск номера версии Forge</string>
     <string name="modloader_dl_failed_to_load_list">Не удалось загрузить список версий.</string>
     <string name="forge_dl_no_installer">К сожалению, у этой версии Forge отсутствует поддерживаемый установщик.</string>
     <string name="forge_dl_select_version">Выбор версии Forge</string>
@@ -259,7 +243,6 @@
     <string name="fabric_dl_game_version">Версия игры</string>
     <string name="fabric_dl_install">Установить</string>
     <string name="fabric_dl_cant_read_meta">Не удалось прочитать метаданные %s. Повторите попытку позже.</string>
-    <string name="fabric_dl_cant_read_meta2">Ошибка чтения метаданных Fabric</string>
     <string name="modloader_dl_install_fabric_instance">Установка с Fabric</string>
     <string name="modloader_dl_install_quilt_instance">Установка с Quilt</string>
     <string name="modloader_dl_install_forge_instance">Установка с Forge</string>
@@ -270,7 +253,6 @@
     <string name="fabric_dl_loader_title">Выбор версий</string>
     <string name="of_dl_select_version">Выбор версии OptiFine</string>
     <string name="of_dl_failed_to_scrape">Не удалось собрать данные для установки OptiFine.</string>
-    <string name="of_dl_progress">Загрузка %s</string>
     <string name="mod_dl_install_optifine">Установить OptiFine</string>
     <string name="hint_search_modpack">Поиск сборок</string>
     <string name="preference_vulkan_driver_system_title">Системный драйвер Vulkan</string>
@@ -282,13 +264,9 @@
     <string name="search_modpack_error">Не удалось выполнить поиск сборок</string>
     <string name="search_modpack_download_error">Не удалось загрузить метаданные сборки</string>
     <string name="modpack_download_downloading_metadata">Загрузка метаданных сборки (%.2f МБ / %.2f МБ)</string>
-    <string name="modpack_download_downloading_mods">Загрузка модов (%.2f МБ / %.2f МБ)</string>
-    <string name="modpack_download_downloading_mods_fc">Загрузка модов (файл %d из %d)</string>
     <string name="modpack_download_applying_overrides">Перезапись параметров (%d/%d)</string>
     <string name="modpack_install_notification_title">Установка сборки MJLauncher</string>
     <string name="modpack_install_notification_success">Нажмите для завершения установки сборки</string>
-    <string name="modpack_install_notification_data_not_available">Не удалось загрузить информацию о загрузчике модов</string>
-    <string name="modpack_install_modloader_download_failed">Не удалось загрузить файлы загрузчика модов</string>
     <string name="modpack_install_download_failed">Не удалось загрузить файлы сборки</string>
     <string name="modpack_install_instance_button">Установка со сборкой модов</string>
     <string name="modpack_install_toast_success">Установка сборки модов завершена!</string>
@@ -320,13 +298,8 @@
     <string name="notification_permission_toast">Выбор можно изменить позже, перейдя в настройки.</string>
     <string name="preference_ask_for_notification_title">Разрешить уведомления</string>
     <string name="preference_ask_for_notification_description">Нажмите, чтобы ещё раз запросить разрешение на вывод уведомлений. Они нужны для правильной загрузки игры и сборок модов в фоне.</string>
-    <string name="preference_vsync_in_zink_title">Вертикальная синхронизация с Zink</string>
-    <string name="preference_vsync_in_zink_description">Позволяет использовать внутренние системные API для активации вертикальной синхронизации при работе с Zink. Отключите, если игра начнёт вылетать после обновления системы.</string>
-    <string name="exception_failed_to_unpack_jre17">Не удалось установить JRE 17</string>
     <string name="newdl_starting">Чтение метаданных игры…</string>
     <string name="newdl_downloading_metadata">Загрузка метаданных игры (%s)</string>
-    <string name="newdl_downloading_game_files">Загрузка файлов игры… (%d/%d, %.2f МБ/с)</string>
-    <string name="newdl_downloading_game_files_size">Загрузка файлов игры… (%.2f/%.2f МБ, %.2f МБ/с)</string>
     <string name="cropper_title">Выбрать часть изображения</string>
     <string name="cropper_lock_vertical">⬄</string>
     <string name="cropper_lock_horizontal">⇳</string>
@@ -338,7 +311,6 @@
     <string name="log_view_button_output_on">Вывод\nВКЛ</string>
     <string name="log_view_label_log_output">Журнал:</string>
     <string name="execute_jar_failed_to_read_file">Ошибка чтения .jar файла</string>
-    <string name="execute_jar_incompatible_runtime">Функция запуска .jar файлов несовместима с Java %d</string>
     <string name="controller_button_a">A</string>
     <string name="controller_button_b">B</string>
     <string name="controller_button_x">X</string>
@@ -381,7 +353,6 @@
     <string name="bta_installer_untested_versions">Нетестированные версии BTA</string>
     <string name="bta_installer_nightly_versions">Экспериментальные версии BTA</string>
     <string name="newdl_extracting_native_libraries">Распаковка дополнительных библиотек… (%d/%d)</string>
-    <string name="compat_version_not_supported">Ваше устройство не может запустить эту версию поскольку LTW не поддерживается</string>
     <string name="compat_sodium_not_supported">Ваше устройство не может запустить Sodium на этой версии поскольку LTW не поддерживается</string>
     <string name="oauth_unknown_error">Неизвестная ошибка авторизации</string>
     <string name="oauth_web_complete">Авторизация…</string>
@@ -390,7 +361,6 @@
     <string name="auth_select_local">Без пароля</string>
     <string name="instance_dir_missing">Установки нет</string>
     <string name="gamedir_open_failed">Ошибка открытия папки игры</string>
-    <string name="newerdl_inserting_metadata">Поиск метаданных файлов…</string>
     <string name="newerdl_inserting_metadata_count">Поиск метаданных файлов… (%d/%d)</string>
     <string name="newerdl_downloading_files_count">Загрузка файлов… (%d/%d, %.2f MB/s)</string>
     <string name="newerdl_downloading_files_size">Загрузка файлов… (%.2f/%.2f MB, %.2f MB/s)</string>
