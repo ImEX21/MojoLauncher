@@ -199,7 +199,7 @@
     <string name="xerr_no_account">Похоже, у вас нет учётной записи Xbox Live. Войдите один раз на https://minecraft.net/ и попробуйте снова.</string>
     <string name="xerr_adult_verification">Вашу учётную запись должен подтвердить взрослый.</string>
     <string name="xerr_child">Ваша учётная запись — детская. Чтобы войти, её нужно добавить в семейную группу.</string>
-    <string name="mc_not_owned">Похоже, у этой учётной записи нет профиля MC. Если у вас есть Xbox Game Pass, войдите на сайт игры и настройте профиль.</string>
+    <string name="mc_not_owned">Похоже, у этой учётной записи нет профиля МК. Если у вас есть Xbox Game Pass, войдите на сайт игры и настройте профиль.</string>
     <string name="xerr_not_available">Xbox Live недоступен в вашей стране</string>
     <string name="preference_enable_gyro_title">Включить управление гироскопом</string>
     <string name="preference_enable_gyro_description">При включении вы сможете поворачивать камеру в игре, поворачивая телефон.</string>
@@ -448,4 +448,6 @@
     <string name="mjdl_download_error_subtitle">Загрузка не удалась. Проверьте соединение с интернетом и убедитесь, что на диске достаточно свободного места.</string>
     <string name="mjdl_download_error_subtitle_2">Не удалось проверить файл. Попробуйте снова. Если ошибка повторяется, свяжитесь с нами на GitHub или в Discord.</string>
     <string name="bta_configuring">Настройка BTA…</string>
+    <string name="pref_blocklist_disable_title">Отключить чёрный список серверов</string>
+    <string name="pref_blocklist_disable_description">Запрещает загрузку чёрного списка серверов МК. Это позволяет играть на заблокированных серверах (таких, как 6b6t.org)</string>
 </resources>
