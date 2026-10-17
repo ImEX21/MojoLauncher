@@ -252,7 +252,7 @@
     <string name="xerr_no_account">You don\'t seem to have an Xbox Live account. Please log in once on https://minecraft.net/ and try again.</string>
     <string name="xerr_adult_verification">An adult needs to verify your account.</string>
     <string name="xerr_child">Your account is a child account, and needs to be added into a family in order to log in.</string>
-    <string name="mc_not_owned">It seems like this account does not have a MС profile. If you have Xbox Game Pass, please log in to the game\'s website and set up your profile.</string>
+    <string name="mc_not_owned">It seems like this account does not have an MC profile. If you have Xbox Game Pass, please log in to the game\'s website and set up your profile.</string>
     <string name="xerr_not_available">Xbox Live is not available in your country</string>
     <string name="preference_enable_gyro_title">Enable gyroscope controls</string>
     <string name="preference_enable_gyro_description">Enabling this will allow you to turn in-game by turning your phone.</string>
@@ -316,7 +316,7 @@
     <string name="hint_search_modpack">Search for modpacks</string>
 
     <string name="preference_vulkan_driver_system_title">Use system Vulkan driver</string>
-    <string name="preference_vulkan_driver_system_description">Force the launcher to use the system Vulkan driver instead of Turnip on Adreno GPUs. Only affects Zink, as well as mods and game versions that use Vulkan.</string>
+    <string name="preference_vulkan_driver_system_description">Force the launcher to use the system Vulkan driver instead of Turnip on Adreno GPUs. Affects only Zink, mods, and game versions that use Vulkan.</string>
 
     <string name="generic_install">Install</string>
     <string name="generic_apply">Apply</string>
@@ -418,8 +418,8 @@
     <string name="bta_installer_untested_versions">Untested BTA versions</string>
     <string name="bta_installer_nightly_versions">Nightly BTA versions</string>
     <string name="newdl_extracting_native_libraries">Extracting native libraries (%d/%d)</string>
-    <string name="compat_version_not_supported">Your device cannot run this version because LTW is not supported on your device.</string>
-    <string name="compat_sodium_not_supported">Your device cannot run Sodium on this version because LTW is not supported on your device.</string>
+    <string name="compat_version_not_supported">This version will not launch because LTW is not supported on this device.</string>
+    <string name="compat_sodium_not_supported">Sodium will not run because LTW is not supported on this device.</string>
     <string name="oauth_unknown_error">Unknown authentication error</string>
     <string name="oauth_web_complete">Authenticating…</string>
     <string name="auth_select_microsoft">Microsoft account</string>
@@ -462,7 +462,7 @@
     <string name="instance_delete_confirmation">Are you sure you want to delete the instance? This will permanently delete all worlds, mods, resources and any other data in the instance directory. This action cannot be undone!</string>
     <string name="import_local_modpack">Import local modpack</string>
     <string name="preference_sysmem_title">Force rendering into the system memory</string>
-    <string name="preference_sysmem_summary">Forces Freedreno to render directly into the system memory. Enable if performance is low or you experience rendering issues.</string>
+    <string name="preference_sysmem_summary">Forces Turnip/Freedreno to render directly into the system memory. Enable if performance is low or you experience rendering issues.</string>
     <string name="preference_category_keyboard">Keyboard settings</string>
     <string name="preference_keyboard_autopan_title">Enable keyboard panning</string>
     <string name="preference_keyboard_autopan_summary">Allows the on-screen keyboard to move the game window instead of overlapping it if the last touch was below the visible zone. Has no effect on custom control layout buttons with the same function.</string>
@@ -513,5 +513,5 @@
     <string name="mjdl_download_error_subtitle_2">File verification failed. Please try again. If this error keeps happening, contact us on GitHub or on Discord.</string>
     <string name="bta_configuring">Configuring BTA…</string>
     <string name="pref_blocklist_disable_title">Disable server blocklist</string>
-    <string name="pref_blocklist_disable_description">Prevent the MC server blocklist from loading. This allows you to play on blocked servers (like 6b6t.org)</string>
+    <string name="pref_blocklist_disable_description">Prevent the MC server blocklist from loading. This allows you to play on blocked servers (like 6b6t.org).</string>
 </resources>
