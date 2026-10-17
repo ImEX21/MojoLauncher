@@ -30,7 +30,7 @@
     <string name="mcl_setting_subtitle_mousescale">Изменяет размер виртуальной мыши.</string>
     <string name="mcl_setting_title_javaargs">Аргументы запуска JVM</string>
     <string name="mcl_setting_subtitle_javaargs">Будьте осторожны: при необдуманном изменении игра может вылететь.</string>
-    <string name="mcl_setting_category_renderer">OpenGL визуализатор</string>
+    <string name="mcl_setting_category_renderer">Визуализатор OpenGL</string>
     <string name="mcl_setting_renderer_gles2_4">GL4ES (OpenGL ES 2) — 1.21.4 и ниже</string>
     <string name="mcl_setting_renderer_ltw">LTW (OpenGL ES 3) — только 1.17+</string>
     <string name="mcl_setting_renderer_vulkan_zink">Zink (Vulkan) — все версии</string>
@@ -59,7 +59,7 @@
     <string name="global_select">Выбрать</string>
     <string name="global_retry">Повторить</string>
     <string name="global_default">По умолчанию</string>
-    <string name="mcn_exit_title">Приложение/игра завершилось с кодом %d. Подробности — в latestlog.txt.</string>
+    <string name="mcn_exit_title">Приложение или игра завершились с кодом %d. Подробности — в latestlog.txt.</string>
     <string name="mcn_abort_title">Работа приложения/игры аварийно завершена. Подробности — в latestlog.txt.</string>
     <string name="mcn_exit_confirm">Вы уверены, что хотите принудительно завершить игру?</string>
     <string name="control_chat">Чат</string>
@@ -109,7 +109,7 @@
     <string name="main_play">Играть</string>
     <string name="autoram_info_msg">Выделено памяти: %d МБ</string>
     <string name="mcl_disable_gestures">Отключить жесты</string>
-    <string name="mcl_disable_gestures_subtitle">Отключает жесты, например удержание для разрушения блока и касание для его установки.</string>
+    <string name="mcl_disable_gestures_subtitle">Отключает жесты, например, удержание для разрушения блока и касание для его установки.</string>
     <string name="mcl_disable_swap_hand">Отключить смену руки по двойному касанию</string>
     <string name="mcl_disable_swap_hand_subtitle">Отключает перемещение предмета во вторую руку при двойном касании по нему на панели быстрого доступа.</string>
     <string name="mcl_setting_title_mousespeed">Скорость мыши</string>
@@ -118,8 +118,8 @@
     <string name="customctrl_swipeable">Поддерживать смахивания</string>
     <string name="customctrl_forward_lock">Блокировка движения вперёд</string>
     <string name="customctrl_absolute_tracking">Абсолютное отслеживание пальца</string>
-    <string name="memory_warning_msg">Текущий объём свободной оперативной памяти (%d) меньше выделенного (%d), что может привести к сбоям. Измените выделение, если игра вылетает.</string>
-    <string name="address_memory_warning_msg">Текущий объём свободного адресуемого пространства оперативной памяти (%d) меньше выделенного (%d), что приведёт к сбоям. Измените выделение, если игра вылетает.</string>
+    <string name="memory_warning_msg">Текущий объём свободной оперативной памяти (%d) меньше выделенного (%d), что может привести к сбоям. Измените объём выделяемой памяти, если игра вылетает.</string>
+    <string name="address_memory_warning_msg">Текущий объём свободного адресуемого пространства оперативной памяти (%d) меньше выделенного (%d), что приведёт к сбоям. Измените объём выделяемой памяти, если игра вылетает.</string>
     <string name="mcl_memory_allocation">Выделение памяти</string>
     <string name="mcl_memory_allocation_subtitle">Управляет тем, сколько памяти получает среда выполнения Java.</string>
     <string name="multirt_runtime_corrupt">Повреждённая среда выполнения Java</string>
@@ -138,7 +138,7 @@
     <string name="pvc_jvmArgs">Аргументы JVM</string>
     <string name="preference_mouse_start_title">Запускать с включённой виртуальной мышью</string>
     <string name="preference_mouse_start_description">При включении этой опции виртуальная мышь появляется при запуске.</string>
-    <string name="preference_video_title">Настройки графики</string>
+    <string name="preference_video_title">Графика и визуализатор</string>
     <string name="preference_video_description">Разрешение, визуализатор и производительность</string>
     <string name="preference_control_title">Настройка управления</string>
     <string name="preference_control_description">Жесты, кнопки и масштабирование</string>
@@ -149,7 +149,7 @@
     <string name="preference_experimental_title">Экспериментальные функции</string>
     <string name="preference_experimental_description">Используйте эти функции с осторожностью; поддержка не предоставляется.</string>
     <string name="preference_sustained_performance_title">Включить режим стабильной производительности</string>
-    <string name="preference_sustained_performance_description">Снижает тепловой троттлинг путём ограничения пиковой производительности.</string>
+    <string name="preference_sustained_performance_description">Снижает нагрев за счёт ограничения пиковой производительности.</string>
     <string name="preference_force_vsync_title">Принудительно включить вертикальную синхронизацию</string>
     <string name="preference_force_vsync_description">Ограничивает частоту кадров частотой обновления экрана, снижая энергопотребление и нагрев.</string>
     <string name="preference_use_angle_title">Использовать ANGLE</string>
@@ -177,7 +177,7 @@
     <string name="instance_shared_data_off">Хранить данные игры в папке установки</string>
     <string name="global_delete">Удалить</string>
     <string name="pedit_java_runtime">Среда выполнения Java</string>
-    <string name="pedit_renderer">OpenGL визуализатор</string>
+    <string name="pedit_renderer">Визуализатор OpenGL</string>
     <string name="notif_channel_name">Общие</string>
     <string name="lazy_service_default_title">Служба MJ в фоне</string>
     <string name="mcl_setting_veroption_installed">Установленные</string>
@@ -194,7 +194,7 @@
     <string name="main_add_account">Добавить учётную запись</string>
     <string name="tasks_ongoing">Выполняются задачи, подождите</string>
     <string name="no_saved_accounts">Нет сохранённых учётных записей</string>
-    <string name="mc_download_failed">Не удалось загрузить игру! Это может быть связано с плохим соединением, неправильно размещёнными файлами и т. п.</string>
+    <string name="mc_download_failed">Не удалось загрузить игру! Это может быть связано с плохим подключением к интернету, неправильно размещёнными файлами и т. п.</string>
     <string name="xerr_unknown">Неизвестная ошибка API Xbox Live %d</string>
     <string name="xerr_no_account">Похоже, у вас нет учётной записи Xbox Live. Войдите один раз на https://minecraft.net/ и попробуйте снова.</string>
     <string name="xerr_adult_verification">Вашу учётную запись должен подтвердить взрослый.</string>
@@ -228,7 +228,7 @@
     <string name="preference_wipe_controller_title">Сбросить привязки контроллера</string>
     <string name="preference_wipe_controller_description">Сбрасывает привязки кнопок контроллера, после чего их можно назначить заново.</string>
     <string name="preference_deadzone_scale_title">Масштаб мёртвой зоны джойстика</string>
-    <string name="preference_deadzone_scale_description">Увеличьте, если джойстик дрейфует.</string>
+    <string name="preference_deadzone_scale_description">Увеличьте, если джойстик самопроизвольно отклоняется.</string>
     <string name="preference_microphone_access_title">Запросить доступ к микрофону</string>
     <string name="preference_microphone_access_description">Запрашивает у системы доступ к микрофону устройства для игры.</string>
     <string name="preference_force_big_core_title">Запускать отрисовку на мощном ядре</string>
@@ -354,8 +354,8 @@
     <string name="bta_installer_untested_versions">Непроверенные версии BTA</string>
     <string name="bta_installer_nightly_versions">Экспериментальные версии BTA</string>
     <string name="newdl_extracting_native_libraries">Извлечение системных библиотек (%d/%d)</string>
-    <string name="compat_version_not_supported">Ваше устройство не может запустить эту версию, поскольку LTW не поддерживается.</string>
-    <string name="compat_sodium_not_supported">Ваше устройство не может запустить Sodium на этой версии, так как LTW им не поддерживается.</string>
+    <string name="compat_version_not_supported">Эта версия не запустится, так как LTW не поддерживается на этом устройстве.</string>
+    <string name="compat_sodium_not_supported">Sodium не запустится, так как LTW не поддерживается на этом устройстве.</string>
     <string name="oauth_unknown_error">Неизвестная ошибка входа</string>
     <string name="oauth_web_complete">Вход…</string>
     <string name="auth_select_microsoft">Учётная запись Microsoft</string>
@@ -398,10 +398,10 @@
     <string name="instance_delete_confirmation">Вы уверены, что хотите удалить установку? Все миры, моды, ресурсы и другие данные в папке установки будут удалены безвозвратно. Это действие нельзя отменить!</string>
     <string name="import_local_modpack">Импортировать локальную сборку</string>
     <string name="preference_sysmem_title">Принудительная отрисовка в системную память</string>
-    <string name="preference_sysmem_summary">Заставляет Freedreno отрисовывать напрямую в системную память. Включите, если производительность низкая или есть проблемы с отрисовкой.</string>
+    <string name="preference_sysmem_summary">Заставляет Turnip/Freedreno отрисовывать напрямую в системную память. Включите, если производительность низкая или есть проблемы с отрисовкой.</string>
     <string name="preference_category_keyboard">Настройки клавиатуры</string>
     <string name="preference_keyboard_autopan_title">Включить панорамирование клавиатурой</string>
-    <string name="preference_keyboard_autopan_summary">Позволяет экранной клавиатуре сдвигать окно игры, а не перекрывать его, если последнее касание было ниже видимой зоны. Не влияет на кнопки настраиваемого управления с той же функцией.</string>
+    <string name="preference_keyboard_autopan_summary">Позволяет экранной клавиатуре сдвигать окно игры, а не перекрывать его, если последнее касание было ниже видимой зоны. Не влияет на кнопки настраиваемого управления с такой же функцией.</string>
     <string name="preference_data_migration_title">Импортировать данные</string>
     <string name="preference_data_migration_summary">Начать импорт данных (установок, раскладок управления) из старой установки приложения.</string>
     <string name="migration_progress_foreign">Укажите корректную старую установку!</string>
@@ -435,7 +435,7 @@
     <string name="mjdl_json_error_title">Ошибка метаданных игры</string>
     <string name="mjdl_json_error_subtitle_1">Данные для этой версии недоступны. Проверьте соединение с интернетом или переустановите её.</string>
     <string name="mjdl_json_error_subtitle_3">Данные для этой версии повреждены. Включите проверку манифеста игры и попробуйте загрузить снова.</string>
-    <string name="mjdl_json_error_subtitle_2">Данные для этой версии имеют неверный формат. Сообщите об этом на нашем GitHub или в Discord. (%s)</string>
+    <string name="mjdl_json_error_subtitle_2">Данные для этой версии имеют неверный формат. Сообщите об этом на нашем GitHub или в Telegram. (%s)</string>
     <string name="mjdl_native_error_title">Ошибка библиотеки игры</string>
     <string name="mjdl_native_error_subtitle_1">Библиотеке %s требуется код для %s, но он не включён.</string>
     <string name="mjdl_native_error_subtitle_2">Не удалось извлечь системные библиотеки</string>
@@ -446,8 +446,8 @@
     <string name="mjdl_disk_error_subtitle_2">Не удалось сохранить установку после обновления среды выполнения Java.</string>
     <string name="mjdl_download_error_title">Ошибка загрузки</string>
     <string name="mjdl_download_error_subtitle">Загрузка не удалась. Проверьте соединение с интернетом и убедитесь, что на диске достаточно свободного места.</string>
-    <string name="mjdl_download_error_subtitle_2">Не удалось проверить файл. Попробуйте снова. Если ошибка повторяется, свяжитесь с нами на GitHub или в Discord.</string>
+    <string name="mjdl_download_error_subtitle_2">Не удалось проверить файл. Попробуйте снова. Если ошибка повторяется, свяжитесь с нами на GitHub или в Telegram.</string>
     <string name="bta_configuring">Настройка BTA…</string>
     <string name="pref_blocklist_disable_title">Отключить чёрный список серверов</string>
-    <string name="pref_blocklist_disable_description">Запрещает загрузку чёрного списка серверов МК. Это позволяет играть на заблокированных серверах (таких, как 6b6t.org)</string>
+    <string name="pref_blocklist_disable_description">Запрещает загрузку чёрного списка серверов МК. Это позволяет играть на заблокированных серверах (таких, как 6b6t.org).</string>
 </resources>
