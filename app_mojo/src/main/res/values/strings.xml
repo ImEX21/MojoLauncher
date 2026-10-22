@@ -531,7 +531,6 @@
     <string name="driver_config_remove_failed">Unable to remove the driver package</string>
     <string name="driver_progress_validate">Validating driver package</string>
     <string name="driver_progress_install">Installing driver package</string>
-
     <string name="pref_clean_partfiles_title">Clear download cache</string>
     <string name="pref_clean_partfiles_subtitle_wait">Clear partially downloaded game files. Calculating used space…</string>
     <string name="pref_clean_partfiles_subtitle">Clear partially downloaded game files. %.2f MB of space in use</string>
