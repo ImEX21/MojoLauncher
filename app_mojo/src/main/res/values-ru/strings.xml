@@ -447,8 +447,8 @@
     <string name="mjdl_disk_error_subtitle_3">Не удалось скопировать файлы игры для версии %s. Убедитесь, что на диске достаточно свободного места.</string>
     <string name="mjdl_disk_error_subtitle_2">Не удалось сохранить установку после обновления среды выполнения Java.</string>
     <string name="mjdl_download_error_title">Ошибка загрузки</string>
-    <string name="mjdl_download_error_subtitle">Загрузка не удалась. Проверьте соединение с интернетом и убедитесь, что на диске достаточно свободного места.</string>
-    <string name="mjdl_download_error_subtitle_2">Не удалось проверить файл. Попробуйте снова. Если ошибка повторяется, свяжитесь с нами на GitHub или в Telegram.</string>
+    <string name="mjdl_download_error_subtitle">Загрузка не удалась. Проверьте интернет-соединение и убедитесь в наличии свободного места на диске.</string>
+    <string name="mjdl_download_error_subtitle_2">Ошибка проверки файлов. Попробуйте ещё раз. Если это модифицированная версия - установите её заново. В иных случаях, если эта ошибка не проходит, свяжитесь с нами.</string>
     <string name="bta_configuring">Настройка BTA…</string>
     <string name="pref_blocklist_disable_title">Отключить чёрный список серверов</string>
     <string name="pref_blocklist_disable_description">Запрещает загрузку чёрного списка серверов МК. Это позволяет играть на заблокированных серверах (таких, как 6b6t.org).</string>
